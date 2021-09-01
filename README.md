@@ -10,6 +10,12 @@ Since then, PCBs have been printed and development around the computer is based 
 
 <img src="n8BitBreadboard.png" alt="nate bit microcomputer on a breadboard" width="400"/>
 
+## Physical Design
+
+Large PCBs are expensive and I am not a rich person.
+For this reason, the main goal of the physical design of this computer and the expansion cards is to fit on the $5 boards at the cheap PCB houses.
+This gives a maximum area of 100mm x 100mm, which this board attempts to utilize to the utmost.
+
 ## Main Board
 
 The main board is built around a WDC65C02 CPU operating at 2Mhz and is meant to be as minimal as possible. It consists of:
