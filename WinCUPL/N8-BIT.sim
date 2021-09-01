@@ -1,0 +1,57 @@
+%SIGNAL
+PIN   2 =  A6 
+PIN   3 =  A7 
+PIN   4 =  A8 
+PIN   5 =  A9 
+PIN   6 =  A10 
+PIN   7 =  A11 
+PIN   8 =  A12 
+PIN   9 =  A13 
+PIN  10 =  A14 
+PIN  11 =  A15 
+PIN   1 =  CLK 
+PIN  16 =  FUTURE_0 
+PIN  15 =  FUTURE_1 
+PIN  14 =  NC 
+PIN  20 =  PORT0_CS 
+PIN  19 =  PORT1_CS 
+PIN  18 =  PORT2_CS 
+PIN  17 =  PORT3_CS 
+PIN  22 =  RAM1_CS 
+PIN  21 =  RAM2_CS 
+PIN  23 =  ROM_CS 
+PIN  13 =  RWB 
+%END
+
+%FIELD
+FIELD ADDRESS = A15,A14,A13,A12,A11,A10,A9,A8,A7,A6
+%END
+
+%EQUATION
+!PORT0_CS =>
+    !A6 & !A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT1_CS =>
+    A6 & !A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT2_CS =>
+    !A6 & A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT3_CS =>
+    A6 & A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!RAM1_CS =>
+    !A15 & CLK
+
+!RAM2_CS =>
+    !A8 & !A14 & A15 & CLK
+  # !A9 & !A14 & A15 & CLK
+  # !A10 & !A14 & A15 & CLK
+  # !A11 & !A14 & A15 & CLK
+  # !A12 & !A14 & A15 & CLK
+  # !A13 & !A14 & A15 & CLK
+
+!ROM_CS =>
+    A14 & A15
+
+%END

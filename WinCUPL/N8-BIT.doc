@@ -1,0 +1,89 @@
+
+*******************************************************************************
+                                      N8
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          virtual  Library DLIB-h-40-1
+Created         Mon Aug 23 10:13:12 2021
+Name            N8 Bit 
+Partno          ATF22V10C-10PU 
+Revision        03 
+Date            23-Aug-2021 
+Designer        Nate Rivard 
+Company         N8 Bit Special 
+Assembly        None 
+Location        Amsterdam, NL 
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+ADDRESS =>
+    A15 , A14 , A13 , A12 , A11 , A10 , A9 , A8 , A7 , A6
+
+!PORT0_CS =>
+    !A6 & !A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT1_CS =>
+    A6 & !A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT2_CS =>
+    !A6 & A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT3_CS =>
+    A6 & A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!RAM1_CS =>
+    !A15 & CLK
+
+!RAM2_CS =>
+    !A8 & !A14 & A15 & CLK
+  # !A9 & !A14 & A15 & CLK
+  # !A10 & !A14 & A15 & CLK
+  # !A11 & !A14 & A15 & CLK
+  # !A12 & !A14 & A15 & CLK
+  # !A13 & !A14 & A15 & CLK
+
+!ROM_CS =>
+    A14 & A15
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    A6                          2        V        -       -       -     
+    A7                          3        V        -       -       -     
+    A8                          4        V        -       -       -     
+    A9                          5        V        -       -       -     
+    A10                         6        V        -       -       -     
+    A11                         7        V        -       -       -     
+    A12                         8        V        -       -       -     
+    A13                         9        V        -       -       -     
+    A14                         10       V        -       -       -     
+    A15                         11       V        -       -       -     
+    ADDRESS                     0        F        -       -       -     
+    CLK                         1        V        -       -       -     
+    FUTURE_0                    16       V        -       -       -     
+    FUTURE_1                    15       V        -       -       -     
+    NC                          14       V        -       -       -     
+    PORT0_CS                    20       V        1       0       2     
+    PORT1_CS                    19       V        1       0       2     
+    PORT2_CS                    18       V        1       0       2     
+    PORT3_CS                    17       V        1       0       2     
+    RAM1_CS                     22       V        1       0       2     
+    RAM2_CS                     21       V        6       0       2     
+    ROM_CS                      23       V        1       0       2     
+    RWB                         13       V        -       -       -     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+

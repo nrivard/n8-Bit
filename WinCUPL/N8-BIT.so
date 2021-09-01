@@ -1,0 +1,42 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 10 15:47:27 2021
+
+LISTING FOR SIMULATION FILE: N8-BIT.si
+
+   1: Name     		N8 Bit;
+   2: PartNo   	ATF22V10C-10PU;
+   3: Date     		10-Mar-2021;
+   4: Revision 	02;
+   5: Designer 	Nate Rivard;
+   6: Company  	N8 Bit Special;
+   7: Assembly 	None;
+   8: Location 	Amsterdam, NL;
+   9: Device   		g22v10;
+  10: 
+  11: 
+  12: FIELD ADDRESS = [A15,A14,A13,A12,A11,A10,A9,A8,A7,A6];
+  13:
+  14: ORDER: A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, CLK, RWB, FUTURE_0, FUTURE_1, NC, PORT0_CS, PORT1_CS, PORT2_CS, PORT3_CS, RAM1_CS, RAM2_CS, ROM_CS; 
+  15: 
+  16: 
+
+===============================
+                  FF PPPP      
+                  UU OOOORR    
+                  TT RRRRAAR   
+                  UU TTTTMMO   
+                  RR 012312M   
+      AAAAAA    CREE _______   
+      111111AAAALW__NCCCCCCC   
+      5432109876KB01CSSSSSSS   
+===============================
+0001: 0000000000XXXXXHHHHLHH
+0002: 0111111111XXXXXHHHHLHH
+0003: 1000000000XXXXXHHHHHLH
+0004: 1011111011XXXXXHHHHHLH
+0005: 1011111100XXXXXLHHHHHH
+0006: 1011111101XXXXXHLHHHHH
+0007: 1011111110XXXXXHHLHHHH
+0008: 1011111111XXXXXHHHLHHH
