@@ -34,8 +34,8 @@ The main board is built around a WDC65C02 CPU operating at 2Mhz and is meant to 
 
 By default, the n8 Bit is intended to have the following memory hardware:
 
-* 1 Atmel AT28C256
-* 2 Cypress CY62256NL
+* 1 Atmel AT28C256 in the ROM1 socket
+* 2 Cypress CY62256NL in the RAM1 and RAM2 sockets
 
 ### Default Memory Layout
 
