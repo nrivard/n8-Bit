@@ -8,7 +8,7 @@ If you are looking for the software that runs on this computer, check out [LmaOS
 The n8 Bit was originally a breadboard computer based on the [Ben Eater series of 6502 videos](https://www.youtube.com/playlist?list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH) but with some added capabilities including ACIA support, GAL-based address decoding logic, and a power chip for more reliable reset and power-on.
 Since then, PCBs have been printed and development around the computer is based on these.
 
-<img src="n8BitBreadboard.png" alt="nate bit microcomputer on a breadboard" width="400"/>
+<img src="images/n8BitBreadboard.png" alt="nate bit microcomputer on a breadboard" width="400"/>
 
 ## Physical Design
 
@@ -28,7 +28,7 @@ The main board is built around a WDC65C02 CPU operating at 2Mhz and is meant to 
 * 4 n8 Bus ports for I/O
 * 4 pin "power port" header for +5V, ground, and USB D+/D-
 
-<img src="n8BitV1.png" alt="nate bit microcomputer, version 1" width="400"/>
+<img src="images/n8BitV1.png" alt="nate bit microcomputer, version 1" width="400"/>
 
 ## Address space
 
@@ -64,6 +64,9 @@ If you go this route, you will have to update your own GAL code to match your ha
 ## n8 Bus
 
 The biggest advancement with the n8 Bit when it moved from breadboards to custom PCBs is the introduction of the n8 Bus spec.
+
+<img src="images/n8BusV1.png" alt="nate bus schematic, version 1" width="400"/>
+
 The spec mandates that the following signals will be available on a standard 2x16 board-to-board female header:
 
 **Bidirectional signals:**
@@ -92,6 +95,10 @@ For example, if you are interfacing with many non-6502 based devices (maybe 6800
 
 In addition, if you're not going to utilize the USB D+/D- signals on the power port, you may also use these to send global signals to all 4 n8 Bus ports.
 
+**Power Rails:**
+
+The n8 Bus spec provides power rails (+5V and ground) on both the top and bottom of the header for shorter, more convenient power routing on your expansions cards.
+
 ## I/O Expansion Cards
 
 The main board for this computer is intentionally minimal.
@@ -118,7 +125,7 @@ This is because they will already have:
 
 This will ensure you have consistent and correct card designs from the start.
 
-<img src="KidsSerialV1.png" alt="Kids Serial, a UART card, version 1" width="400"/>
+<img src="images/KidsSerialV1.png" alt="Kids Serial, a UART card, version 1" width="400"/>
 
 **Note**: Neither card design included has had their PCB tested &#129335;
 
@@ -141,7 +148,7 @@ It has unstable voltage as wired because the power LED has a voltage drop across
 To fix this, you'll need to cut one trace and wire up some bodge wires as pictured below.
 This should get rectified in V2 and/or an amended V1.
 
-<img src="n8BitBodgesV1.png" alt="Bodge wire fixes, version 1" width="400"/>
+<img src="images/n8BitBodgesV1.png" alt="Bodge wire fixes, version 1" width="400"/>
 
 V1 also has a minor hardware flaw in that the ports are too close together.
 If your cards utilize sockets (which many hobbyists use), the cards will be too thick to all fit.
