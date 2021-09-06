@@ -11,9 +11,21 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 22676)
+    (start_pass_no 11190)
     (layer_rule F.Cu
       (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active off)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
       (against_preferred_direction_trace_costs 2.0)
@@ -31,9 +43,15 @@
     (clear 77.0 (type smd_to_turn_gap))
     (clear 50.0 (type smd_smd))
   )
-  (padstack "Via[0-1]_800:400_um"
+  (padstack "Via[0-3]_800:400_um"
     (shape
       (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
     )
     (shape
       (circle B.Cu 800.0 0.0 0.0)
@@ -41,22 +59,22 @@
     (attach off)
   )
   (via 
-    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+    "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
   )
   (via 
-    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+    "Via[0-3]_800:400_um-kicad_default" "Via[0-3]_800:400_um" "kicad_default"
   )
   (via 
-    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+    "Via[0-3]_800:400_um-Power" "Via[0-3]_800:400_um" Power
   )
   (via_rule
-    default "Via[0-1]_800:400_um"
+    default "Via[0-3]_800:400_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+    "kicad_default" "Via[0-3]_800:400_um-kicad_default"
   )
   (via_rule
-    Power "Via[0-1]_800:400_um-Power"
+    Power "Via[0-3]_800:400_um-Power"
   )
   (class default
     (clearance_class default)
@@ -69,20 +87,20 @@
     )
   )
   (class "kicad_default"
-    "Net-(D1-Pad1)" ~RES "USB_D+" "USB_D-" /A0 /D0 /A1 /D1
-    /A2 /D2 /A3 /D3 /A4 /D4 /A5 /D5
-    "~PORT0_CS" /D6 R~W /D7 CLK "PORT0_IRQ_PULLUP" "PORT0_NMI_PULLUP" FUTURE0
-    FUTURE1 "~PORT2_CS" "PORT2_IRQ_PULLUP" "PORT2_NMI_PULLUP" "PORT1_NMI_PULLUP" "PORT1_IRQ_PULLUP" "~PORT1_CS" "Net-(J6-Pad2)"
-    "Net-(J6-Pad4)" "Net-(J6-Pad6)" "Net-(J6-Pad8)" "Net-(J6-Pad10)" "Net-(J6-Pad12)" /A12 /A13 ~IRQ
-    /A14 /A15 ~NMI /A6 /A7 /A8 /A9 /A10
-    "Net-(U1-Pad39)" /A11 "~RAM2_CS" "~RAM1_CS" "~ROM_CS" "Net-(X1-Pad1)" "Net-(J1-Pad6)" "Net-(J1-Pad4)"
-    "Net-(D1-Pad2)" "Net-(Q1-Pad2)" ~READ ~WRITE "Net-(U1-Pad12)" "Net-(U1-Pad8)" "Net-(U1-Pad6)" "Net-(U1-Pad4)"
-    "Net-(U1-Pad2)" "Net-(U1-Pad43)" +3V3 "Net-(D2-Pad2)" "Net-(D2-Pad1)" "Net-(D3-Pad2)" "Net-(D3-Pad1)" "Net-(R7-Pad1)"
-    "Net-(R8-Pad1)" "Net-(U8-Pad37)" RxD TxD "Net-(U8-Pad31)" "Net-(U8-Pad40)" "Net-(U8-Pad34)" ~RTS
-    "Net-(U8-Pad30)" "Net-(U8-Pad29)" "Net-(U8-Pad23)" "Net-(U8-Pad17)" "Net-(U8-Pad15)" "Net-(U8-Pad13)" "Net-(U8-Pad11)" "Net-(U8-Pad16)"
-    "Net-(U8-Pad14)" ~CTS "Net-(U8-Pad42)" "Net-(U8-Pad41)" "Net-(U8-Pad43)" "Net-(U8-Pad5)" "Net-(U8-Pad3)" "Net-(U8-Pad1)"
-    "Net-(U9-Pad16)" "Net-(U9-Pad7)" "~UART_IRQ" "RDY_PULLUP" "BE_PULLUP" "~UART_CS" "UART_RES" "Net-(U10-Pad1)"
-    "Net-(U6-Pad16)"
+    GND +5V "Net-(D1-Pad1)" ~RES "USB_D+" "USB_D-" /A0 /D0
+    /A1 /D1 /A2 /D2 /A3 /D3 /A4 /D4
+    /A5 /D5 "~PORT0_CS" /D6 R~W /D7 CLK "PORT0_IRQ_PULLUP"
+    "PORT0_NMI_PULLUP" FUTURE0 FUTURE1 "~PORT2_CS" "PORT2_IRQ_PULLUP" "PORT2_NMI_PULLUP" "PORT1_NMI_PULLUP" "PORT1_IRQ_PULLUP"
+    "~PORT1_CS" "Net-(J6-Pad2)" "Net-(J6-Pad4)" "Net-(J6-Pad6)" "Net-(J6-Pad8)" "Net-(J6-Pad10)" "Net-(J6-Pad12)" /A12
+    /A13 ~IRQ /A14 /A15 ~NMI /A6 /A7 /A8
+    /A9 /A10 "Net-(U1-Pad39)" /A11 "~RAM2_CS" "~RAM1_CS" "~ROM_CS" "Net-(X1-Pad1)"
+    "Net-(J1-Pad6)" "Net-(J1-Pad4)" "Net-(D1-Pad2)" "Net-(Q1-Pad2)" ~READ ~WRITE "Net-(U1-Pad12)" "Net-(U1-Pad8)"
+    "Net-(U1-Pad6)" "Net-(U1-Pad4)" "Net-(U1-Pad2)" "Net-(U1-Pad43)" +3V3 "Net-(D2-Pad2)" "Net-(D2-Pad1)" "Net-(D3-Pad2)"
+    "Net-(D3-Pad1)" "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(U8-Pad37)" RxD TxD "Net-(U8-Pad31)" "Net-(U8-Pad40)"
+    "Net-(U8-Pad34)" ~RTS "Net-(U8-Pad30)" "Net-(U8-Pad29)" "Net-(U8-Pad23)" "Net-(U8-Pad17)" "Net-(U8-Pad15)" "Net-(U8-Pad13)"
+    "Net-(U8-Pad11)" "Net-(U8-Pad16)" "Net-(U8-Pad14)" ~CTS "Net-(U8-Pad42)" "Net-(U8-Pad41)" "Net-(U8-Pad43)" "Net-(U8-Pad5)"
+    "Net-(U8-Pad3)" "Net-(U8-Pad1)" "Net-(U9-Pad16)" "Net-(U9-Pad7)" "~UART_IRQ" "RDY_PULLUP" "BE_PULLUP" "~UART_CS"
+    "UART_RES" "Net-(U10-Pad1)" "Net-(U6-Pad16)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -93,7 +111,6 @@
     )
   )
   (class Power
-    GND +5V
     (clearance_class Power)
     (via_rule Power)
     (rule
