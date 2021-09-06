@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2021-03-09T09:41:07+01:00"
+    "CreationDate":  "2021-03-25T12:19:47+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "n8 bit special",
       "GUID": "6e382062-6974-4207-9370-656369616c2e",
-      "Revision": "rev?"
+      "Revision": "2"
     },
     "Size":
     {
-      "X": 99.795,
-      "Y": 97.890
+      "X": 100.049,
+      "Y": 99.732
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -29,8 +29,8 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.200,
-      "PadToTrack":  0.200,
+      "PadToPad":  0.154,
+      "PadToTrack":  0.154,
       "TrackToTrack":  0.200,
       "MinLineWidth":  0.154,
       "TrackToRegion":  0.508,
