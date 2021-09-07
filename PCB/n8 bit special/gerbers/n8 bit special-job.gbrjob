@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2021-03-25T12:19:47+01:00"
+    "CreationDate":  "2021-09-07T10:39:34+02:00"
   },
   "GeneralSpecs":
   {
@@ -20,9 +20,9 @@
     "Size":
     {
       "X": 100.049,
-      "Y": 99.732
+      "Y": 100.113
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness":  1.600
   },
   "DesignRules":
@@ -31,6 +31,13 @@
       "Layers": "Outer",
       "PadToPad":  0.154,
       "PadToTrack":  0.154,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.154
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
       "MinLineWidth":  0.154,
       "TrackToRegion":  0.508,
@@ -45,8 +52,18 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "n8 bit special-GND_PLANE.gbr",
+      "FileFunction":  "Copper,L2,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "n8 bit special-PWR_PLANE.gbr",
+      "FileFunction":  "Copper,L3,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
       "Path":  "n8 bit special-B_Cu.gbr",
-      "FileFunction":  "Copper,L2,Bot",
+      "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -107,6 +124,24 @@
       "Type":  "Dielectric",
       "Material":  "FR4",
       "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer GND_PLANE"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L2/L3"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer PWR_PLANE"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L3/L4"
     },
     {
       "Type":  "Copper",

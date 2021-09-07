@@ -14,13 +14,13 @@
         (index 0)
       )
     )
-    (layer In1.Cu
+    (layer GND_PLANE
       (type power)
       (property
         (index 1)
       )
     )
-    (layer In2.Cu
+    (layer PWR_PLANE
       (type power)
       (property
         (index 2)
@@ -43,10 +43,10 @@
             87390.4 -39947.2  87538.1 -39895.5  87693.5 -39878  186246 -39878
             186401 -39895.5)
     )
-    (plane GND (polygon In1.Cu 0  187630 -141478  85064.6 -141135  85293.2 -39039.8  187973 -38976.3
-            187630 -141478))
-    (plane +5V (polygon In2.Cu 0  187668 -142888  85013.8 -141808  85191.6 -38976.3  188925 -38976.3
-            187668 -142888))
+    (plane GND (polygon GND_PLANE 0  187630 -141478  85064.6 -141135  85293.2 -39039.8
+            187973 -38976.3  187630 -141478))
+    (plane +5V (polygon PWR_PLANE 0  187668 -142888  85013.8 -141808  85191.6 -38976.3
+            188925 -38976.3  187668 -142888))
     (via "Via[0-3]_800:400_um")
     (rule
       (width 154)
@@ -57,44 +57,44 @@
   )
   (placement
     (component Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm
-      (place C20 173914 -116789 front 0 (PN 47pF))
-      (place C19 166827 -116738 front 0 (PN 47pF))
+      (place C20 178562 -110503 front 90 (PN 47pF))
+      (place C19 178587 -114325 front 270 (PN 47pF))
       (place C9 157048 -103289 front 270 (PN 100nF))
     )
     (component "Package_DIP:DIP-14_W7.62mm_Socket"
       (place U10 144831 -81559.4 front 0 (PN 74HC00))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-      (place R2 157036 -89750.9 front 270 (PN 3K3))
+      (place R2 157036 -97353.1 front 90 (PN 3K3))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical
       (place J6 157569 -129489 front 270 (PN Conn_02x08_Odd_Even))
     )
     (component "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm"
-      (place U9 170129 -108661 front 0 (PN FT230XS))
+      (place U9 161709 -112471 front 270 (PN FT230XS))
     )
     (component "Package_LCC:PLCC-44_THT-Socket"
       (place U8 166116 -79679.8 front 90 (PN SC28L92_PLC44))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal::1
-      (place R8 162306 -109601 front 270 (PN 27))
-      (place R7 162357 -96913.7 front 270 (PN 27))
-      (place R6 168275 -97383.6 front 0 (PN 220))
-      (place R5 168351 -102133 front 0 (PN 220))
+      (place R8 166992 -110503 front 0 (PN 27))
+      (place R7 167005 -114325 front 0 (PN 27))
+      (place R6 169779 -97038.2 front 0 (PN 220))
+      (place R5 169789 -102941 front 0 (PN 220))
       (place R4 169532 -130746 front 90 (PN 10K))
     )
     (component LED_THT:LED_D3.0mm
-      (place D3 181051 -97180.4 front 0 (PN RX))
-      (place D2 181077 -103022 front 0 (PN TX))
+      (place D3 181026 -96977.2 front 0 (PN RX))
+      (place D2 181052 -102819 front 0 (PN TX))
     )
     (component Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm::1
-      (place C18 177521 -110007 front 90 (PN 100nF))
+      (place C18 161844 -105827 front 90 (PN 100nF))
       (place C17 157036 -76657.2 front 90 (PN 100nF))
       (place C16 124244 -83997.8 front 90 (PN 100nf))
-      (place C3 90017.6 -136063 front 90 (PN 100nf))
-      (place C4 137904 -136068 front 90 (PN 100nf))
-      (place C7 90017.6 -118516 front 90 (PN 100nf))
-      (place C5 90017.6 -100101 front 90 (PN 100nf))
+      (place C3 90723.7 -136063 front 90 (PN 100nf))
+      (place C4 138803 -136068 front 90 (PN 100nf))
+      (place C7 90723.7 -118516 front 90 (PN 100nf))
+      (place C5 90723.7 -100101 front 90 (PN 100nf))
       (place C11 156972 -55041.8 front 90 (PN 100nf))
     )
     (component "Package_LCC:PLCC-44_THT-Socket::1"
@@ -107,15 +107,15 @@
       (place X1 130785 -90373.2 front 0 (PN 3.6864Mhz))
     )
     (component "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal"
-      (place J1 184175 -111277 front 90 (PN USB_B_Micro))
+      (place J1 184213 -112242 front 90 (PN USB_B_Micro))
     )
     (component Capacitor_THT:CP_Radial_D8.0mm_P3.80mm
-      (place C2 181077 -121387 front 270 (PN 470uF))
+      (place C2 181064 -122022 front 270 (PN 470uF))
     )
     (component Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm::2
       (place C1 157036 -84048.6 front 90 (PN 100nf))
-      (place C8 137884 -118579 front 90 (PN 100nf))
-      (place C6 137820 -100101 front 90 (PN 100nf))
+      (place C8 138770 -118161 front 90 (PN 100nf))
+      (place C6 138719 -100101 front 90 (PN 100nf))
       (place C12 156947 -43459.4 front 270 (PN 100nf))
       (place C13 133223 -43370.5 front 270 (PN 100nf))
       (place C14 109918 -43307 front 270 (PN 100nf))
@@ -125,11 +125,11 @@
       (place D1 173533 -135712 front 180 (PN LED_ALT))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical
-      (place J2 94640.4 -97637.6 front 90 (PN PORT0))
-      (place J3 94642.6 -133560 front 90 (PN PORT2))
+      (place J2 95539.6 -97637.6 front 90 (PN PORT0))
+      (place J3 95541.8 -133560 front 90 (PN PORT2))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical::1
-      (place J4 94640.4 -115603 front 90 (PN PORT1))
+      (place J4 95539.6 -115603 front 90 (PN PORT1))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal::2
       (place R1 173888 -130696 front 90 (PN 220))
@@ -1148,64 +1148,64 @@
     )
     (padstack Round[A]Pad_1300_um
       (shape (circle F.Cu 1300))
-      (shape (circle In1.Cu 1300))
-      (shape (circle In2.Cu 1300))
+      (shape (circle GND_PLANE 1300))
+      (shape (circle PWR_PLANE 1300))
       (shape (circle B.Cu 1300))
       (attach off)
     )
     (padstack Round[A]Pad_1422.4_um
       (shape (circle F.Cu 1422.4))
-      (shape (circle In1.Cu 1422.4))
-      (shape (circle In2.Cu 1422.4))
+      (shape (circle GND_PLANE 1422.4))
+      (shape (circle PWR_PLANE 1422.4))
       (shape (circle B.Cu 1422.4))
       (attach off)
     )
     (padstack Round[A]Pad_1600_um
       (shape (circle F.Cu 1600))
-      (shape (circle In1.Cu 1600))
-      (shape (circle In2.Cu 1600))
+      (shape (circle GND_PLANE 1600))
+      (shape (circle PWR_PLANE 1600))
       (shape (circle B.Cu 1600))
       (attach off)
     )
     (padstack Round[A]Pad_1800_um
       (shape (circle F.Cu 1800))
-      (shape (circle In1.Cu 1800))
-      (shape (circle In2.Cu 1800))
+      (shape (circle GND_PLANE 1800))
+      (shape (circle PWR_PLANE 1800))
       (shape (circle B.Cu 1800))
       (attach off)
     )
     (padstack Round[A]Pad_2000_um
       (shape (circle F.Cu 2000))
-      (shape (circle In1.Cu 2000))
-      (shape (circle In2.Cu 2000))
+      (shape (circle GND_PLANE 2000))
+      (shape (circle PWR_PLANE 2000))
       (shape (circle B.Cu 2000))
       (attach off)
     )
     (padstack Oval[A]Pad_1600x1600_um
       (shape (path F.Cu 1600  0 0  0 0))
-      (shape (path In1.Cu 1600  0 0  0 0))
-      (shape (path In2.Cu 1600  0 0  0 0))
+      (shape (path GND_PLANE 1600  0 0  0 0))
+      (shape (path PWR_PLANE 1600  0 0  0 0))
       (shape (path B.Cu 1600  0 0  0 0))
       (attach off)
     )
     (padstack Oval[A]Pad_1700x1700_um
       (shape (path F.Cu 1700  0 0  0 0))
-      (shape (path In1.Cu 1700  0 0  0 0))
-      (shape (path In2.Cu 1700  0 0  0 0))
+      (shape (path GND_PLANE 1700  0 0  0 0))
+      (shape (path PWR_PLANE 1700  0 0  0 0))
       (shape (path B.Cu 1700  0 0  0 0))
       (attach off)
     )
     (padstack Oval[A]Pad_890x1550_um
       (shape (path F.Cu 890  0 -330  0 330))
-      (shape (path In1.Cu 890  0 -330  0 330))
-      (shape (path In2.Cu 890  0 -330  0 330))
+      (shape (path GND_PLANE 890  0 -330  0 330))
+      (shape (path PWR_PLANE 890  0 -330  0 330))
       (shape (path B.Cu 890  0 -330  0 330))
       (attach off)
     )
     (padstack Oval[A]Pad_1250x950_um
       (shape (path F.Cu 950  -150 0  150 0))
-      (shape (path In1.Cu 950  -150 0  150 0))
-      (shape (path In2.Cu 950  -150 0  150 0))
+      (shape (path GND_PLANE 950  -150 0  150 0))
+      (shape (path PWR_PLANE 950  -150 0  150 0))
       (shape (path B.Cu 950  -150 0  150 0))
       (attach off)
     )
@@ -1223,15 +1223,15 @@
     )
     (padstack Rect[A]Pad_1300x1300_um
       (shape (rect F.Cu -650 -650 650 650))
-      (shape (rect In1.Cu -650 -650 650 650))
-      (shape (rect In2.Cu -650 -650 650 650))
+      (shape (rect GND_PLANE -650 -650 650 650))
+      (shape (rect PWR_PLANE -650 -650 650 650))
       (shape (rect B.Cu -650 -650 650 650))
       (attach off)
     )
     (padstack Rect[A]Pad_1422.4x1422.4_um
       (shape (rect F.Cu -711.2 -711.2 711.2 711.2))
-      (shape (rect In1.Cu -711.2 -711.2 711.2 711.2))
-      (shape (rect In2.Cu -711.2 -711.2 711.2 711.2))
+      (shape (rect GND_PLANE -711.2 -711.2 711.2 711.2))
+      (shape (rect PWR_PLANE -711.2 -711.2 711.2 711.2))
       (shape (rect B.Cu -711.2 -711.2 711.2 711.2))
       (attach off)
     )
@@ -1241,29 +1241,29 @@
     )
     (padstack Rect[A]Pad_1600x1600_um
       (shape (rect F.Cu -800 -800 800 800))
-      (shape (rect In1.Cu -800 -800 800 800))
-      (shape (rect In2.Cu -800 -800 800 800))
+      (shape (rect GND_PLANE -800 -800 800 800))
+      (shape (rect PWR_PLANE -800 -800 800 800))
       (shape (rect B.Cu -800 -800 800 800))
       (attach off)
     )
     (padstack Rect[A]Pad_1700x1700_um
       (shape (rect F.Cu -850 -850 850 850))
-      (shape (rect In1.Cu -850 -850 850 850))
-      (shape (rect In2.Cu -850 -850 850 850))
+      (shape (rect GND_PLANE -850 -850 850 850))
+      (shape (rect PWR_PLANE -850 -850 850 850))
       (shape (rect B.Cu -850 -850 850 850))
       (attach off)
     )
     (padstack Rect[A]Pad_1800x1800_um
       (shape (rect F.Cu -900 -900 900 900))
-      (shape (rect In1.Cu -900 -900 900 900))
-      (shape (rect In2.Cu -900 -900 900 900))
+      (shape (rect GND_PLANE -900 -900 900 900))
+      (shape (rect PWR_PLANE -900 -900 900 900))
       (shape (rect B.Cu -900 -900 900 900))
       (attach off)
     )
     (padstack "Via[0-3]_800:400_um"
       (shape (circle F.Cu 800))
-      (shape (circle In1.Cu 800))
-      (shape (circle In2.Cu 800))
+      (shape (circle GND_PLANE 800))
+      (shape (circle PWR_PLANE 800))
       (shape (circle B.Cu 800))
       (attach off)
     )
@@ -1486,19 +1486,13 @@
       (pins R5-2 D2-2)
     )
     (net "Net-(D2-Pad1)"
-      (pins U9-15 D2-1)
+      (pins U9-7 D2-1)
     )
     (net "Net-(D3-Pad2)"
       (pins R6-2 D3-2)
     )
     (net "Net-(D3-Pad1)"
       (pins U9-14 D3-1)
-    )
-    (net "Net-(R7-Pad1)"
-      (pins U9-9 R7-1)
-    )
-    (net "Net-(R8-Pad1)"
-      (pins U9-8 R8-1)
     )
     (net "Net-(U8-Pad37)"
       (pins U8-37)
@@ -1572,9 +1566,6 @@
     (net "Net-(U9-Pad16)"
       (pins U9-16)
     )
-    (net "Net-(U9-Pad7)"
-      (pins U9-7)
-    )
     (net ~UART_IRQ
       (pins R2-1 U8-24 U5-5)
     )
@@ -1596,22 +1587,31 @@
     (net "Net-(U6-Pad16)"
       (pins U6-16)
     )
+    (net "Net-(U9-Pad15)"
+      (pins U9-15)
+    )
+    (net /F_USB_D+
+      (pins U9-8 R8-1)
+    )
+    (net "/F_USB_D-"
+      (pins U9-9 R7-1)
+    )
     (class kicad_default "" +3V3 +5V /A0 /A1 /A10 /A11 /A12 /A13 /A14 /A15
-      /A2 /A3 /A4 /A5 /A6 /A7 /A8 /A9 /D0 /D1 /D2 /D3 /D4 /D5 /D6 /D7 BE_PULLUP
-      CLK FUTURE0 FUTURE1 GND "Net-(D1-Pad1)" "Net-(D1-Pad2)" "Net-(D2-Pad1)"
-      "Net-(D2-Pad2)" "Net-(D3-Pad1)" "Net-(D3-Pad2)" "Net-(J1-Pad4)" "Net-(J1-Pad6)"
-      "Net-(J6-Pad10)" "Net-(J6-Pad12)" "Net-(J6-Pad2)" "Net-(J6-Pad4)" "Net-(J6-Pad6)"
-      "Net-(J6-Pad8)" "Net-(Q1-Pad2)" "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(U1-Pad12)"
-      "Net-(U1-Pad2)" "Net-(U1-Pad39)" "Net-(U1-Pad4)" "Net-(U1-Pad43)" "Net-(U1-Pad6)"
-      "Net-(U1-Pad8)" "Net-(U10-Pad1)" "Net-(U6-Pad16)" "Net-(U8-Pad1)" "Net-(U8-Pad11)"
-      "Net-(U8-Pad13)" "Net-(U8-Pad14)" "Net-(U8-Pad15)" "Net-(U8-Pad16)"
-      "Net-(U8-Pad17)" "Net-(U8-Pad23)" "Net-(U8-Pad29)" "Net-(U8-Pad3)" "Net-(U8-Pad30)"
-      "Net-(U8-Pad31)" "Net-(U8-Pad34)" "Net-(U8-Pad37)" "Net-(U8-Pad40)"
-      "Net-(U8-Pad41)" "Net-(U8-Pad42)" "Net-(U8-Pad43)" "Net-(U8-Pad5)" "Net-(U9-Pad16)"
-      "Net-(U9-Pad7)" "Net-(X1-Pad1)" PORT0_IRQ_PULLUP PORT0_NMI_PULLUP PORT1_IRQ_PULLUP
-      PORT1_NMI_PULLUP PORT2_IRQ_PULLUP PORT2_NMI_PULLUP RDY_PULLUP RxD R~W
-      TxD UART_RES USB_D+ "USB_D-" ~CTS ~IRQ ~NMI ~PORT0_CS ~PORT1_CS ~PORT2_CS
-      ~RAM1_CS ~RAM2_CS ~READ ~RES ~ROM_CS ~RTS ~UART_CS ~UART_IRQ ~WRITE
+      /A2 /A3 /A4 /A5 /A6 /A7 /A8 /A9 /D0 /D1 /D2 /D3 /D4 /D5 /D6 /D7 /F_USB_D+
+      "/F_USB_D-" BE_PULLUP CLK FUTURE0 FUTURE1 GND "Net-(D1-Pad1)" "Net-(D1-Pad2)"
+      "Net-(D2-Pad1)" "Net-(D2-Pad2)" "Net-(D3-Pad1)" "Net-(D3-Pad2)" "Net-(J1-Pad4)"
+      "Net-(J1-Pad6)" "Net-(J6-Pad10)" "Net-(J6-Pad12)" "Net-(J6-Pad2)" "Net-(J6-Pad4)"
+      "Net-(J6-Pad6)" "Net-(J6-Pad8)" "Net-(Q1-Pad2)" "Net-(U1-Pad12)" "Net-(U1-Pad2)"
+      "Net-(U1-Pad39)" "Net-(U1-Pad4)" "Net-(U1-Pad43)" "Net-(U1-Pad6)" "Net-(U1-Pad8)"
+      "Net-(U10-Pad1)" "Net-(U6-Pad16)" "Net-(U8-Pad1)" "Net-(U8-Pad11)" "Net-(U8-Pad13)"
+      "Net-(U8-Pad14)" "Net-(U8-Pad15)" "Net-(U8-Pad16)" "Net-(U8-Pad17)"
+      "Net-(U8-Pad23)" "Net-(U8-Pad29)" "Net-(U8-Pad3)" "Net-(U8-Pad30)" "Net-(U8-Pad31)"
+      "Net-(U8-Pad34)" "Net-(U8-Pad37)" "Net-(U8-Pad40)" "Net-(U8-Pad41)"
+      "Net-(U8-Pad42)" "Net-(U8-Pad43)" "Net-(U8-Pad5)" "Net-(U9-Pad15)" "Net-(U9-Pad16)"
+      "Net-(X1-Pad1)" PORT0_IRQ_PULLUP PORT0_NMI_PULLUP PORT1_IRQ_PULLUP PORT1_NMI_PULLUP
+      PORT2_IRQ_PULLUP PORT2_NMI_PULLUP RDY_PULLUP RxD R~W TxD UART_RES USB_D+
+      "USB_D-" ~CTS ~IRQ ~NMI ~PORT0_CS ~PORT1_CS ~PORT2_CS ~RAM1_CS ~RAM2_CS
+      ~READ ~RES ~ROM_CS ~RTS ~UART_CS ~UART_IRQ ~WRITE
       (circuit
         (use_via Via[0-3]_800:400_um)
       )
@@ -1631,5 +1631,22 @@
     )
   )
   (wiring
+    (wire (path F.Cu 200  181801 -112242  181701 -112342)(net USB_D+)(type protect))
+    (wire (path F.Cu 200  182813 -112242  181801 -112242)(net USB_D+)(type protect))
+    (wire (path F.Cu 154  180402 -112342  178562 -110503)(net USB_D+)(type protect))
+    (wire (path F.Cu 154  181701 -112342  180402 -112342)(net USB_D+)(type protect))
+    (wire (path F.Cu 154  178562 -110503  174612 -110503)(net USB_D+)(type protect))
+    (wire (path F.Cu 200  181801 -112892  181701 -112792)(net "USB_D-")(type protect))
+    (wire (path F.Cu 200  182813 -112892  181801 -112892)(net "USB_D-")(type protect))
+    (wire (path F.Cu 154  180121 -112792  178587 -114325)(net "USB_D-")(type protect))
+    (wire (path F.Cu 154  181701 -112792  180121 -112792)(net "USB_D-")(type protect))
+    (wire (path F.Cu 154  178587 -114325  174625 -114325)(net "USB_D-")(type protect))
+    (wire (path F.Cu 200  165312 -112183  160888 -112183)(net /F_USB_D+)(type protect))
+    (wire (path F.Cu 200  166992 -110503  165312 -112183)(net /F_USB_D+)(type protect))
+    (wire (path F.Cu 154  159487 -110781  159487 -109871)(net /F_USB_D+)(type protect))
+    (wire (path F.Cu 154  160888 -112183  159487 -110781)(net /F_USB_D+)(type protect))
+    (wire (path F.Cu 200  165312 -112633  160702 -112633)(net "/F_USB_D-")(type protect))
+    (wire (path F.Cu 200  167005 -114325  165312 -112633)(net "/F_USB_D-")(type protect))
+    (wire (path F.Cu 154  160702 -112633  159487 -113848  159487 -115071)(net "/F_USB_D-")(type protect))
   )
 )

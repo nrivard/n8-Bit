@@ -1,4 +1,4 @@
-update=2021 September 06, Monday 10:23:29
+update=2021 September 06, Monday 10:56:55
 version=1
 last_client=kicad
 [general]
@@ -80,7 +80,7 @@ Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=PWR_PLANE
-Type=2
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
