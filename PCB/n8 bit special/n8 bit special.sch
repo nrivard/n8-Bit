@@ -3388,7 +3388,7 @@ U 1 1 6218E542
 P 14225 8150
 F 0 "U9" H 13850 8850 50  0000 C CNN
 F 1 "FT230XS" H 13850 8775 50  0000 C CNN
-F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 15225 7550 50  0001 C CNN
+F 2 "graphics:SSOP-16_3.9x4.9mm_P0.635mm_long_pads" H 15225 7550 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 14225 8150 50  0001 C CNN
 	1    14225 8150
 	1    0    0    -1  

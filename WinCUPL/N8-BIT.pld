@@ -20,9 +20,9 @@ PIN 13 = RWB ;
    need. make sure to test if you
    use these!
 */
-PIN 16 = FUTURE_0 ;
-PIN 15 = FUTURE_1 ;
-PIN 14 = NC ;
+PIN 16 = NC ;
+PIN 15 = FUTURE_0 ;
+PIN 14 = FUTURE_1 ;
 
 /****Output Pins****/
 PIN 23 = ROM_CS ;
@@ -31,7 +31,7 @@ PIN 21 = RAM2_CS ;
 PIN 20 = PORT0_CS ;
 PIN 19 = PORT1_CS ;
 PIN 18 = PORT2_CS ;
-PIN 17 = PORT3_CS ;
+PIN 17 = UART_CS ;
 
 /****Declarations and Intermediates****/
 FIELD ADDRESS = [A15..A6] ;
@@ -41,5 +41,5 @@ FIELD ADDRESS = [A15..A6] ;
 !PORT0_CS = ADDRESS:[BF00..BF3F] ;
 !PORT1_CS = ADDRESS:[BF40..BF7F] ;
 !PORT2_CS = ADDRESS:[BF80..BFBF] ;
-!PORT3_CS = ADDRESS:[BFC0..BFFF] ;
+!UART_CS = ADDRESS:[BFC0..BFFF] ;
 !ROM_CS = ADDRESS:[C000..FFFF] ;
