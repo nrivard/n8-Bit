@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "n8-bit-special-rescue")(type "Legacy")(uri "${KIPRJMOD}/n8 bit special-rescue.lib")(options "")(descr ""))
+)

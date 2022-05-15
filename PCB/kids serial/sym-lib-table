@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "kids-serial-rescue")(type "Legacy")(uri "${KIPRJMOD}/kids serial-rescue.lib")(options "")(descr ""))
+)
