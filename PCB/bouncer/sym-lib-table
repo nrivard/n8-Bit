@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "bouncer-rescue")(type "Legacy")(uri "${KIPRJMOD}/bouncer-rescue.lib")(options "")(descr ""))
+)

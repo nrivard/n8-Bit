@@ -1,162 +1,167 @@
 {
-  "Header":
-  {
-    "GenerationSoftware":
-    {
-      "Vendor":      "KiCad",
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.12-1-10_14)"
+      "Version": "(6.0.5-0)"
     },
-    "CreationDate":  "2022-03-08T11:17:06+01:00"
+    "CreationDate": "2022-06-16T16:01:59+02:00"
   },
-  "GeneralSpecs":
-  {
-    "ProjectId":
-    {
+  "GeneralSpecs": {
+    "ProjectId": {
       "Name": "n8 bit special",
       "GUID": "6e382062-6974-4207-9370-656369616c2e",
       "Revision": "2"
     },
-    "Size":
-    {
+    "Size": {
       "X": 100.049,
-      "Y": 100.100
+      "Y": 100.0998
     },
     "LayerNumber": 4,
-    "BoardThickness":  1.600
+    "BoardThickness": 1.6,
+    "Finish": "None"
   },
-  "DesignRules":
-  [
+  "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad":  0.154,
-      "PadToTrack":  0.154,
-      "TrackToTrack":  0.200,
-      "MinLineWidth":  0.154
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.154
     },
     {
       "Layers": "Inner",
-      "PadToPad":  0.200,
-      "PadToTrack":  0.200,
-      "TrackToTrack":  0.200,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
     }
   ],
-  "FilesAttributes":
-  [
+  "FilesAttributes": [
     {
-      "Path":  "n8 bit special-F_Cu.gbr",
-      "FileFunction":  "Copper,L1,Top",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-GND_PLANE.gbr",
-      "FileFunction":  "Copper,L2,Inr",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-GND_PLANE.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-PWR_PLANE.gbr",
-      "FileFunction":  "Copper,L3,Inr",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-PWR_PLANE.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-B_Cu.gbr",
-      "FileFunction":  "Copper,L4,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-B_Cu.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-F_SilkS.gbr",
-      "FileFunction":  "Legend,Top",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "n8 bit special-F_Mask.gbr",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
+      "Path": "n8 bit special-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
     },
     {
-      "Path":  "n8 bit special-B_Mask.gbr",
-      "FileFunction":  "SolderMask,Bot",
-      "FilePolarity":  "Negative"
+      "Path": "n8 bit special-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
-      "Path":  "n8 bit special-Edge_Cuts.gbr",
-      "FileFunction":  "Profile",
-      "FilePolarity":  "Positive"
+      "Path": "n8 bit special-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
     }
   ],
-  "MaterialStackup":
-  [
+  "MaterialStackup": [
     {
-      "Type":  "Legend",
-      "Notes":  "Layer F.SilkS"
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer F.Mask"
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer F.Cu"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
     },
     {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L1/L2"
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "F.Cu/GND_PLANE",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND_PLANE)"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer GND_PLANE"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND_PLANE"
     },
     {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L2/L3"
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "GND_PLANE/PWR_PLANE",
+      "Notes": "Type: dielectric layer 2 (from GND_PLANE to PWR_PLANE)"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer PWR_PLANE"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "PWR_PLANE"
     },
     {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L3/L4"
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "PWR_PLANE/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from PWR_PLANE to B.Cu)"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer B.Cu"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer B.Mask"
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
     },
     {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
     }
   ]
 }

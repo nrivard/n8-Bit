@@ -1,0 +1,45 @@
+Name 		N8 Bit ;
+PartNo 	ATF22V10C-10PU ;
+Date		02-Sep-2021 ;
+Revision	04 ;
+Designer	Nate Rivard ;
+Company	N8 Bit Special ;
+Assembly	None ;
+Location	Amsterdam, NL ;
+Device		g22v10 ;
+
+/****Input Pins****/
+PIN [11..2] = [A15..A6] ;
+PIN 1 = CLK ;
+PIN 13 = RWB ;
+
+/****I/O Pins ****/
+/* 
+   These are currently unused
+   but available for any future
+   need. make sure to test if you
+   use these!
+*/
+PIN 16 = NC ;
+PIN 15 = FUTURE_0 ;
+PIN 14 = FUTURE_1 ;
+
+/****Output Pins****/
+PIN 23 = ROM_CS ;
+PIN 22 = RAM1_CS ;
+PIN 21 = RAM2_CS ; 
+PIN 20 = PORT0_CS ;
+PIN 19 = PORT1_CS ;
+PIN 18 = PORT2_CS ;
+PIN 17 = UART_CS ;
+
+/****Declarations and Intermediates****/
+FIELD ADDRESS = [A15..A6] ;
+
+!RAM1_CS = ADDRESS:[0000..7FFF] ;
+!RAM2_CS = ADDRESS:[8000..BEFF] ;
+!PORT0_CS = ADDRESS:[BF00..BF3F] ;
+!PORT1_CS = ADDRESS:[BF40..BF7F] ;
+!PORT2_CS = ADDRESS:[BF80..BFBF] ;
+!UART_CS = ADDRESS:[BFC0..BFFF] ;
+!ROM_CS = ADDRESS:[C000..FFFF] ;

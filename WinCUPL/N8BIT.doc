@@ -1,0 +1,117 @@
+
+*******************************************************************************
+                                      N8
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          g22v10  Library DLIB-h-40-1
+Created         Mon Aug 01 15:55:55 2022
+Name            N8 Bit 
+Partno          ATF22V10C-10PU 
+Revision        04 
+Date            02-Sep-2021 
+Designer        Nate Rivard 
+Company         N8 Bit Special 
+Assembly        None 
+Location        Amsterdam, NL 
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+ADDRESS =>
+    A15 , A14 , A13 , A12 , A11 , A10 , A9 , A8 , A7 , A6
+
+!PORT0_CS =>
+    !A6 & !A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT1_CS =>
+    A6 & !A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!PORT2_CS =>
+    !A6 & A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+!RAM1_CS =>
+    !A15
+
+!RAM2_CS =>
+    !A8 & !A14 & A15
+  # !A9 & !A14 & A15
+  # !A10 & !A14 & A15
+  # !A11 & !A14 & A15
+  # !A12 & !A14 & A15
+  # !A13 & !A14 & A15
+
+!ROM_CS =>
+    A14 & A15
+
+!UART_CS =>
+    A6 & A7 & A8 & A9 & A10 & A11 & A12 & A13 & !A14 & A15
+
+PORT0_CS.oe  =>
+    1 
+
+PORT1_CS.oe  =>
+    1 
+
+PORT2_CS.oe  =>
+    1 
+
+RAM1_CS.oe  =>
+    1 
+
+RAM2_CS.oe  =>
+    1 
+
+ROM_CS.oe  =>
+    1 
+
+UART_CS.oe  =>
+    1 
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    A6                          2        V        -       -       -     
+    A7                          3        V        -       -       -     
+    A8                          4        V        -       -       -     
+    A9                          5        V        -       -       -     
+    A10                         6        V        -       -       -     
+    A11                         7        V        -       -       -     
+    A12                         8        V        -       -       -     
+    A13                         9        V        -       -       -     
+    A14                         10       V        -       -       -     
+    A15                         11       V        -       -       -     
+    ADDRESS                     0        F        -       -       -     
+    CLK                         1        V        -       -       -     
+    FUTURE_0                    15       V        -       -       -     
+    FUTURE_1                    14       V        -       -       -     
+    NC                          16       V        -       -       -     
+    PORT0_CS                    20       V        1       14      2     
+    PORT1_CS                    19       V        1       16      2     
+    PORT2_CS                    18       V        1       16      2     
+    RAM1_CS                     22       V        1       10      2     
+    RAM2_CS                     21       V        6       12      2     
+    ROM_CS                      23       V        1       8       2     
+    RWB                         13       V        -       -       -     
+    UART_CS                     17       V        1       14      2     
+    PORT0_CS            oe      20       D        1       1       0     
+    PORT1_CS            oe      19       D        1       1       0     
+    PORT2_CS            oe      18       D        1       1       0     
+    RAM1_CS             oe      22       D        1       1       0     
+    RAM2_CS             oe      21       D        1       1       0     
+    ROM_CS              oe      23       D        1       1       0     
+    UART_CS             oe      17       D        1       1       0     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+

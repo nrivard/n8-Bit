@@ -1,8 +1,0 @@
-### Module positions - created on Tuesday, September 07, 2021 at 10:36:05 AM ###
-### Printed by Pcbnew version kicad (5.1.9-0-10_14)
-## Unit = mm, Angle = deg.
-## Side : top
-# Ref     Val          Package                                        PosX       PosY       Rot  Side
-J1        USB_B_Micro  USB_Micro-B_Amphenol_10118194_Horizontal   184.2130  -112.2420   90.0000  top
-U9        FT230XS      SSOP-16_3.9x4.9mm_P0.635mm                 161.7090  -112.4710  270.0000  top
-## End
