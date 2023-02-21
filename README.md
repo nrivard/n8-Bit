@@ -39,7 +39,7 @@ The v2 main board is built around a WDC65C02 CPU operating at 3.6864Mhz and is m
 * Moved to PLCC-44 packaging for CPU and DUART. This not only looks cooler but it has a smaller footprint and allowed me more room to lay out additional components.
 * Added transistor stage to the "running" light so it shows when it's actually running, not just when there is power to the board. Pressing and holding RESET will drive this LED off while RESET is low.
 * Added qualified (ANDed with CLK) read and write signals to the board and to the n8 Bus ports, replacing D+/D-.
-* Ran CLK into the GAL in case I want to use itsignal to qualify future signals.
+* Ran CLK into the GAL in case I want to use its signal to qualify future signals.
 * Moved from 2 layer to 4 layer board. So many signals! Also, this is auto-routed, I don't care, I'm not a purist in this (one) sense
 
 <img src="images/n8BitV1.png" alt="nate bit microcomputer, version 1" width="800"/>
