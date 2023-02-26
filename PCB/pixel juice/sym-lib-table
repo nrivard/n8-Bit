@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "VDP")(type "KiCad")(uri "${KIPRJMOD}/VDP.kicad_sym")(options "")(descr ""))
+  (lib (name "PJRAN3X1U03X")(type "KiCad")(uri "${KIPRJMOD}/PJRAN3X1U03X/PJRAN3X1U03X.kicad_sym")(options "")(descr ""))
+)
