@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name "n8-bit-special-rescue")(type "Legacy")(uri "${KIPRJMOD}/n8 bit special-rescue.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "n8-bit-special-rescue")(type "KiCad")(uri "${KIPRJMOD}/n8 bit special-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "sc28l92_plc44-65xx")(type "KiCad")(uri "/Users/nrivard/Desktop/sc28l92_plc44-65xx.kicad_sym")(options "")(descr ""))
 )

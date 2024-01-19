@@ -1,0 +1,23 @@
+Name     DTACK.dig ;
+PartNo   00 ;
+Date     30.11.2023 ;
+Revision 01 ;
+Designer nrivard ;
+Company  unknown ;
+Assembly None ;
+Location unknown ;
+Device   g16v8a ;
+
+/* inputs */
+PIN 4 = CS_MFP;
+PIN 3 = CS_RAM;
+PIN 2 = CS_ROM;
+PIN 9 = DTACK_MFP;
+PIN 8 = IACK_MFP;
+
+/* outputs */
+PIN 19 = DTACK;
+
+/* combinatorial logic */
+DTACK.T = GND
+DTACK.E = (CS_MFP & CS_RAM & CS_ROM & IACK_MFP) # (CS_RAM & CS_ROM & DTACK_MFP);
