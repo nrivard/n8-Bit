@@ -59,7 +59,7 @@
           <string>~RES</string>
         </entry>
       </elementAttributes>
-      <pos x="500" y="260"/>
+      <pos x="360" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -780,7 +780,7 @@
           <string>~CTRL_WR</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="1120"/>
+      <pos x="240" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1013,7 +1013,7 @@
           <string>Device &amp; Register Select</string>
         </entry>
       </elementAttributes>
-      <pos x="1120" y="860"/>
+      <pos x="1080" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1027,7 +1027,7 @@
           <string>SEL_0</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="900"/>
+      <pos x="1040" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1041,12 +1041,12 @@
           <string>SEL_1</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="940"/>
+      <pos x="1040" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="1040" y="860"/>
+      <pos x="1000" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1060,7 +1060,7 @@
           <string>DEN</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="860"/>
+      <pos x="960" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1074,7 +1074,7 @@
           <string>~CS_0</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="980"/>
+      <pos x="1040" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1088,7 +1088,7 @@
           <string>~CS_1</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="1020"/>
+      <pos x="1040" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1102,7 +1102,7 @@
           <string>~CS_2</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="1060"/>
+      <pos x="1040" y="920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1116,7 +1116,7 @@
           <string>~CS_3</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="1100"/>
+      <pos x="1040" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1126,7 +1126,7 @@
           <string>VCC</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="860"/>
+      <pos x="1240" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1140,7 +1140,7 @@
           <string>GND</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="1140"/>
+      <pos x="1040" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1150,7 +1150,7 @@
           <string>~CE</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="900"/>
+      <pos x="1240" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1160,7 +1160,7 @@
           <string>~DATA_WR</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1020"/>
+      <pos x="1240" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1170,7 +1170,7 @@
           <string>~DATA_RD</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1060"/>
+      <pos x="1240" y="920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1180,7 +1180,7 @@
           <string>~CTRL_WR</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1100"/>
+      <pos x="1240" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1190,7 +1190,7 @@
           <string>~CTRL_RD</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1140"/>
+      <pos x="1240" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1200,7 +1200,7 @@
           <string>R~W</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="940"/>
+      <pos x="1240" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1210,7 +1210,7 @@
           <string>A_0</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="980"/>
+      <pos x="1240" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1244,7 +1244,7 @@
           <string>~IRQ</string>
         </entry>
       </elementAttributes>
-      <pos x="1260" y="200"/>
+      <pos x="1240" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1258,7 +1258,7 @@
           <string>ITC</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="180"/>
+      <pos x="1060" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1272,7 +1272,7 @@
           <string>IEN</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="220"/>
+      <pos x="1060" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1302,7 +1302,7 @@
           <string>~TXC</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1240"/>
+      <pos x="900" y="1220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1312,12 +1312,12 @@
           <string>~DATA_RD</string>
         </entry>
       </elementAttributes>
-      <pos x="920" y="1140"/>
+      <pos x="1060" y="1160"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="1140" y="280"/>
+      <pos x="1120" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1331,7 +1331,7 @@
           <string>TXC</string>
         </entry>
       </elementAttributes>
-      <pos x="1100" y="280"/>
+      <pos x="1080" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1341,7 +1341,7 @@
           <string>~TXC</string>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="280"/>
+      <pos x="1200" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
@@ -1365,7 +1365,7 @@
           <string>RUNNING</string>
         </entry>
       </elementAttributes>
-      <pos x="500" y="280"/>
+      <pos x="360" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Data</elementName>
@@ -1380,7 +1380,7 @@
     <visualElement>
       <elementName>ClockSelect.dig</elementName>
       <elementAttributes/>
-      <pos x="1120" y="660"/>
+      <pos x="1080" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1414,7 +1414,7 @@
           <string>DIV_0</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="660"/>
+      <pos x="1040" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1428,7 +1428,7 @@
           <string>DIV_1</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="680"/>
+      <pos x="1040" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1442,67 +1442,7 @@
           <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>~RES</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1100" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="1140" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>RES</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1220" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>RES</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1080" y="740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>14</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>Real device doesn&apos;t need to reset
-this clock select circuit. If positive
-reset isn&apos;t needed except for this
-we can skip generating that signal.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1060" y="560"/>
+      <pos x="1040" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1512,7 +1452,7 @@ we can skip generating that signal.</string>
           <string>DIVCLK</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="700"/>
+      <pos x="1240" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -1522,7 +1462,7 @@ we can skip generating that signal.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1120" y="180"/>
+      <pos x="1100" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1532,7 +1472,7 @@ we can skip generating that signal.</string>
           <string>MOSI</string>
         </entry>
       </elementAttributes>
-      <pos x="1260" y="440"/>
+      <pos x="1240" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1546,7 +1486,7 @@ we can skip generating that signal.</string>
           <string>SEROUT</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="460"/>
+      <pos x="980" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1560,7 +1500,7 @@ we can skip generating that signal.</string>
           <string>RUNNING</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="420"/>
+      <pos x="1060" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1598,7 +1538,7 @@ we can skip generating that signal.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="880" y="1180"/>
+      <pos x="1020" y="1200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1608,7 +1548,7 @@ we can skip generating that signal.</string>
           <string>~DATA_WR</string>
         </entry>
       </elementAttributes>
-      <pos x="920" y="1180"/>
+      <pos x="1060" y="1200"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -1618,12 +1558,12 @@ we can skip generating that signal.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1120" y="420"/>
+      <pos x="1100" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="1040" y="460"/>
+      <pos x="1020" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1730,6 +1670,122 @@ we can skip generating that signal.</string>
       </elementAttributes>
       <pos x="1020" y="80"/>
     </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1040" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RUNNING</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>RUNNING</string>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NAnd</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>~RES</string>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="1140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="1260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>~RES</string>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="1260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="280" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>CLK</string>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="1140"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -1737,16 +1793,8 @@ we can skip generating that signal.</string>
       <p2 x="520" y="640"/>
     </wire>
     <wire>
-      <p1 x="1080" y="900"/>
-      <p2 x="1120" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="900"/>
-      <p2 x="1280" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="260"/>
-      <p2 x="540" y="260"/>
+      <p1 x="360" y="260"/>
+      <p2 x="380" y="260"/>
     </wire>
     <wire>
       <p1 x="-20" y="1160"/>
@@ -1757,8 +1805,12 @@ we can skip generating that signal.</string>
       <p2 x="500" y="1160"/>
     </wire>
     <wire>
+      <p1 x="1020" y="1160"/>
+      <p2 x="1060" y="1160"/>
+    </wire>
+    <wire>
       <p1 x="720" y="1160"/>
-      <p2 x="800" y="1160"/>
+      <p2 x="780" y="1160"/>
     </wire>
     <wire>
       <p1 x="480" y="520"/>
@@ -1767,6 +1819,10 @@ we can skip generating that signal.</string>
     <wire>
       <p1 x="720" y="520"/>
       <p2 x="760" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="520"/>
+      <p2 x="1080" y="520"/>
     </wire>
     <wire>
       <p1 x="20" y="780"/>
@@ -1793,28 +1849,12 @@ we can skip generating that signal.</string>
       <p2 x="60" y="660"/>
     </wire>
     <wire>
-      <p1 x="1080" y="660"/>
-      <p2 x="1120" y="660"/>
+      <p1 x="1040" y="920"/>
+      <p2 x="1080" y="920"/>
     </wire>
     <wire>
-      <p1 x="20" y="280"/>
-      <p2 x="60" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="1100" y="280"/>
-      <p2 x="1140" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="1180" y="280"/>
-      <p2 x="1220" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="280"/>
-      <p2 x="540" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="280"/>
-      <p2 x="740" y="280"/>
+      <p1 x="1200" y="920"/>
+      <p2 x="1240" y="920"/>
     </wire>
     <wire>
       <p1 x="460" y="920"/>
@@ -1825,12 +1865,44 @@ we can skip generating that signal.</string>
       <p2 x="760" y="920"/>
     </wire>
     <wire>
-      <p1 x="880" y="1180"/>
-      <p2 x="920" y="1180"/>
+      <p1 x="20" y="280"/>
+      <p2 x="60" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="280"/>
+      <p2 x="1120" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="280"/>
+      <p2 x="1200" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="280"/>
+      <p2 x="740" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="280"/>
+      <p2 x="540" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="540"/>
+      <p2 x="1080" y="540"/>
     </wire>
     <wire>
       <p1 x="480" y="540"/>
       <p2 x="520" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="1180"/>
+      <p2 x="940" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="800"/>
+      <p2 x="1080" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="800"/>
+      <p2 x="1240" y="800"/>
     </wire>
     <wire>
       <p1 x="460" y="800"/>
@@ -1845,18 +1917,6 @@ we can skip generating that signal.</string>
       <p2 x="640" y="160"/>
     </wire>
     <wire>
-      <p1 x="1080" y="1060"/>
-      <p2 x="1120" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="1060"/>
-      <p2 x="1280" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="420"/>
-      <p2 x="1120" y="420"/>
-    </wire>
-    <wire>
       <p1 x="480" y="420"/>
       <p2 x="520" y="420"/>
     </wire>
@@ -1869,16 +1929,20 @@ we can skip generating that signal.</string>
       <p2 x="60" y="40"/>
     </wire>
     <wire>
-      <p1 x="1080" y="680"/>
-      <p2 x="1120" y="680"/>
+      <p1 x="360" y="300"/>
+      <p2 x="380" y="300"/>
     </wire>
     <wire>
-      <p1 x="1080" y="940"/>
-      <p2 x="1120" y="940"/>
+      <p1 x="1200" y="560"/>
+      <p2 x="1240" y="560"/>
     </wire>
     <wire>
-      <p1 x="1240" y="940"/>
-      <p2 x="1280" y="940"/>
+      <p1 x="480" y="560"/>
+      <p2 x="520" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="1200"/>
+      <p2 x="1060" y="1200"/>
     </wire>
     <wire>
       <p1 x="-20" y="1200"/>
@@ -1893,24 +1957,16 @@ we can skip generating that signal.</string>
       <p2 x="500" y="1200"/>
     </wire>
     <wire>
-      <p1 x="480" y="560"/>
-      <p2 x="520" y="560"/>
-    </wire>
-    <wire>
       <p1 x="20" y="820"/>
       <p2 x="60" y="820"/>
     </wire>
     <wire>
-      <p1 x="1080" y="180"/>
-      <p2 x="1120" y="180"/>
+      <p1 x="1060" y="180"/>
+      <p2 x="1100" y="180"/>
     </wire>
     <wire>
       <p1 x="460" y="1080"/>
       <p2 x="500" y="1080"/>
-    </wire>
-    <wire>
-      <p1 x="1220" y="440"/>
-      <p2 x="1260" y="440"/>
     </wire>
     <wire>
       <p1 x="480" y="440"/>
@@ -1925,12 +1981,12 @@ we can skip generating that signal.</string>
       <p2 x="60" y="700"/>
     </wire>
     <wire>
-      <p1 x="1240" y="700"/>
-      <p2 x="1280" y="700"/>
+      <p1 x="1040" y="960"/>
+      <p2 x="1080" y="960"/>
     </wire>
     <wire>
-      <p1 x="20" y="320"/>
-      <p2 x="60" y="320"/>
+      <p1 x="1200" y="960"/>
+      <p2 x="1240" y="960"/>
     </wire>
     <wire>
       <p1 x="460" y="960"/>
@@ -1941,12 +1997,32 @@ we can skip generating that signal.</string>
       <p2 x="760" y="960"/>
     </wire>
     <wire>
+      <p1 x="20" y="320"/>
+      <p2 x="60" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="580"/>
+      <p2 x="1080" y="580"/>
+    </wire>
+    <wire>
       <p1 x="20" y="580"/>
       <p2 x="60" y="580"/>
     </wire>
     <wire>
       <p1 x="480" y="580"/>
       <p2 x="520" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="1220"/>
+      <p2 x="900" y="1220"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="840"/>
+      <p2 x="1080" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="840"/>
+      <p2 x="1240" y="840"/>
     </wire>
     <wire>
       <p1 x="460" y="840"/>
@@ -1961,28 +2037,32 @@ we can skip generating that signal.</string>
       <p2 x="60" y="200"/>
     </wire>
     <wire>
-      <p1 x="1220" y="200"/>
-      <p2 x="1260" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="1100"/>
-      <p2 x="1120" y="1100"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="1100"/>
-      <p2 x="1280" y="1100"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="460"/>
-      <p2 x="1040" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="460"/>
-      <p2 x="1120" y="460"/>
+      <p1 x="1200" y="200"/>
+      <p2 x="1240" y="200"/>
     </wire>
     <wire>
       <p1 x="480" y="460"/>
       <p2 x="520" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1100"/>
+      <p2 x="280" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="1100"/>
+      <p2 x="340" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="720"/>
+      <p2 x="1080" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="720"/>
+      <p2 x="1000" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="720"/>
+      <p2 x="1240" y="720"/>
     </wire>
     <wire>
       <p1 x="20" y="80"/>
@@ -1993,28 +2073,24 @@ we can skip generating that signal.</string>
       <p2 x="1100" y="80"/>
     </wire>
     <wire>
-      <p1 x="1080" y="720"/>
-      <p2 x="1120" y="720"/>
+      <p1 x="600" y="80"/>
+      <p2 x="640" y="80"/>
     </wire>
     <wire>
-      <p1 x="1080" y="980"/>
-      <p2 x="1120" y="980"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="980"/>
-      <p2 x="1280" y="980"/>
+      <p1 x="1060" y="340"/>
+      <p2 x="1100" y="340"/>
     </wire>
     <wire>
       <p1 x="0" y="980"/>
       <p2 x="40" y="980"/>
     </wire>
     <wire>
-      <p1 x="1100" y="340"/>
-      <p2 x="1140" y="340"/>
+      <p1 x="1040" y="600"/>
+      <p2 x="1080" y="600"/>
     </wire>
     <wire>
-      <p1 x="1180" y="340"/>
-      <p2 x="1220" y="340"/>
+      <p1 x="480" y="600"/>
+      <p2 x="520" y="600"/>
     </wire>
     <wire>
       <p1 x="460" y="1240"/>
@@ -2030,43 +2106,15 @@ we can skip generating that signal.</string>
     </wire>
     <wire>
       <p1 x="740" y="1240"/>
-      <p2 x="760" y="1240"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="600"/>
-      <p2 x="520" y="600"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="860"/>
-      <p2 x="1120" y="860"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="860"/>
-      <p2 x="1040" y="860"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="860"/>
-      <p2 x="1280" y="860"/>
+      <p2 x="780" y="1240"/>
     </wire>
     <wire>
       <p1 x="20" y="860"/>
       <p2 x="60" y="860"/>
     </wire>
     <wire>
-      <p1 x="1080" y="220"/>
-      <p2 x="1120" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="20" y="480"/>
-      <p2 x="60" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="480"/>
-      <p2 x="520" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="1120"/>
-      <p2 x="500" y="1120"/>
+      <p1 x="1060" y="220"/>
+      <p2 x="1100" y="220"/>
     </wire>
     <wire>
       <p1 x="720" y="1120"/>
@@ -2077,16 +2125,32 @@ we can skip generating that signal.</string>
       <p2 x="20" y="1120"/>
     </wire>
     <wire>
-      <p1 x="1200" y="100"/>
-      <p2 x="1240" y="100"/>
+      <p1 x="420" y="1120"/>
+      <p2 x="500" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="480"/>
+      <p2 x="60" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="480"/>
+      <p2 x="520" y="480"/>
     </wire>
     <wire>
       <p1 x="20" y="740"/>
       <p2 x="60" y="740"/>
     </wire>
     <wire>
-      <p1 x="1080" y="740"/>
-      <p2 x="1120" y="740"/>
+      <p1 x="1200" y="100"/>
+      <p2 x="1240" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="1000"/>
+      <p2 x="1080" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1000"/>
+      <p2 x="1240" y="1000"/>
     </wire>
     <wire>
       <p1 x="460" y="1000"/>
@@ -2097,12 +2161,36 @@ we can skip generating that signal.</string>
       <p2 x="760" y="1000"/>
     </wire>
     <wire>
+      <p1 x="1200" y="360"/>
+      <p2 x="1240" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="1260"/>
+      <p2 x="900" y="1260"/>
+    </wire>
+    <wire>
       <p1 x="20" y="620"/>
       <p2 x="60" y="620"/>
     </wire>
     <wire>
       <p1 x="480" y="620"/>
       <p2 x="520" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="880"/>
+      <p2 x="1080" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="880"/>
+      <p2 x="1240" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="880"/>
+      <p2 x="500" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="880"/>
+      <p2 x="760" y="880"/>
     </wire>
     <wire>
       <p1 x="500" y="240"/>
@@ -2117,28 +2205,32 @@ we can skip generating that signal.</string>
       <p2 x="60" y="240"/>
     </wire>
     <wire>
-      <p1 x="460" y="880"/>
-      <p2 x="500" y="880"/>
+      <p1 x="860" y="1140"/>
+      <p2 x="900" y="1140"/>
     </wire>
     <wire>
-      <p1 x="720" y="880"/>
-      <p2 x="760" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="1140"/>
-      <p2 x="1120" y="1140"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="1140"/>
-      <p2 x="1280" y="1140"/>
-    </wire>
-    <wire>
-      <p1 x="880" y="1140"/>
-      <p2 x="920" y="1140"/>
+      <p1 x="300" y="1140"/>
+      <p2 x="340" y="1140"/>
     </wire>
     <wire>
       <p1 x="480" y="500"/>
       <p2 x="520" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="760"/>
+      <p2 x="1080" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="760"/>
+      <p2 x="1240" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="760"/>
+      <p2 x="760" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="760"/>
+      <p2 x="500" y="760"/>
     </wire>
     <wire>
       <p1 x="600" y="120"/>
@@ -2153,24 +2245,20 @@ we can skip generating that signal.</string>
       <p2 x="1040" y="120"/>
     </wire>
     <wire>
-      <p1 x="720" y="760"/>
-      <p2 x="760" y="760"/>
+      <p1 x="980" y="380"/>
+      <p2 x="1020" y="380"/>
     </wire>
     <wire>
-      <p1 x="460" y="760"/>
-      <p2 x="500" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="1020"/>
-      <p2 x="1120" y="1020"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="1020"/>
-      <p2 x="1280" y="1020"/>
+      <p1 x="1060" y="380"/>
+      <p2 x="1100" y="380"/>
     </wire>
     <wire>
       <p1 x="0" y="1020"/>
       <p2 x="40" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="600"/>
+      <p2 x="1040" y="620"/>
     </wire>
     <wire>
       <p1 x="740" y="1200"/>

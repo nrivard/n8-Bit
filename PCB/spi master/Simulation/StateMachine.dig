@@ -49,24 +49,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>~RES</string>
-        </entry>
-        <entry>
-          <string>pinNumber</string>
-          <string>2</string>
-        </entry>
-        <entry>
-          <string>InDefault</string>
-          <value v="1" z="false"/>
-        </entry>
-      </elementAttributes>
-      <pos x="680" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>CLK</string>
         </entry>
         <entry>
@@ -124,30 +106,6 @@ C   1    1</dataString>
         </entry>
       </elementAttributes>
       <pos x="1300" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>NAnd</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="760" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>RUNNING</string>
-        </entry>
-        <entry>
-          <string>pinNumber</string>
-          <string>4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="680" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>74HC393.dig</elementName>
@@ -216,19 +174,25 @@ C   1    1</dataString>
       <elementAttributes/>
       <pos x="1480" y="200"/>
     </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CLR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="400"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="860" y="400"/>
+      <p1 x="680" y="400"/>
       <p2 x="880" y="400"/>
     </wire>
     <wire>
       <p1 x="880" y="400"/>
       <p2 x="960" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="420"/>
-      <p2 x="760" y="420"/>
     </wire>
     <wire>
       <p1 x="880" y="580"/>
@@ -265,10 +229,6 @@ C   1    1</dataString>
     <wire>
       <p1 x="1300" y="380"/>
       <p2 x="1340" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="380"/>
-      <p2 x="760" y="380"/>
     </wire>
     <wire>
       <p1 x="920" y="540"/>
