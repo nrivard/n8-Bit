@@ -331,7 +331,12 @@ C   0    1    1		1</dataString>
     </visualElement>
     <visualElement>
       <elementName>74HC393.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>DIL</shapeType>
+        </entry>
+      </elementAttributes>
       <pos x="460" y="280"/>
     </visualElement>
     <visualElement>
@@ -352,7 +357,7 @@ C   0    1    1		1</dataString>
           <string>CLK_4</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="300"/>
+      <pos x="600" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -372,7 +377,7 @@ C   0    1    1		1</dataString>
           <string>CLK_16</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="340"/>
+      <pos x="600" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -400,7 +405,7 @@ C   0    1    1		1</dataString>
           <string>RES</string>
         </entry>
       </elementAttributes>
-      <pos x="420" y="300"/>
+      <pos x="420" y="320"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -409,7 +414,11 @@ C   0    1    1		1</dataString>
       <p2 x="260" y="320"/>
     </wire>
     <wire>
-      <p1 x="560" y="320"/>
+      <p1 x="420" y="320"/>
+      <p2 x="460" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="320"/>
       <p2 x="600" y="320"/>
     </wire>
     <wire>
@@ -453,10 +462,6 @@ C   0    1    1		1</dataString>
       <p2 x="960" y="340"/>
     </wire>
     <wire>
-      <p1 x="560" y="340"/>
-      <p2 x="600" y="340"/>
-    </wire>
-    <wire>
       <p1 x="680" y="500"/>
       <p2 x="760" y="500"/>
     </wire>
@@ -471,6 +476,14 @@ C   0    1    1		1</dataString>
     <wire>
       <p1 x="420" y="280"/>
       <p2 x="460" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="280"/>
+      <p2 x="600" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="360"/>
+      <p2 x="600" y="360"/>
     </wire>
     <wire>
       <p1 x="760" y="380"/>
@@ -507,14 +520,6 @@ C   0    1    1		1</dataString>
     <wire>
       <p1 x="1240" y="300"/>
       <p2 x="1280" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="560" y="300"/>
-      <p2 x="600" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="420" y="300"/>
-      <p2 x="460" y="300"/>
     </wire>
     <wire>
       <p1 x="960" y="300"/>
