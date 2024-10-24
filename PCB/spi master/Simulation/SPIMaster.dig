@@ -1987,22 +1987,7 @@
           <string>~CTRL_WR</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="-80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="2080" y="-80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="2140" y="-80"/>
+      <pos x="2060" y="-80"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2368,12 +2353,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Data Register</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>41</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Data Register</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -2386,12 +2371,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Control Register</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>41</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Control Register</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -2404,12 +2389,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Device &amp; Register Select</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>41</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Device &amp; Register Select</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -2422,12 +2407,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Control Signals</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>28</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Control Signals</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -2483,6 +2468,31 @@
         </entry>
       </elementAttributes>
       <pos x="1740" y="920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="2080" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NAnd</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>~RUNNING</string>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="780"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -2565,6 +2575,10 @@
     <wire>
       <p1 x="2420" y="780"/>
       <p2 x="2460" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="780"/>
+      <p2 x="840" y="780"/>
     </wire>
     <wire>
       <p1 x="660" y="140"/>
@@ -2715,10 +2729,6 @@
       <p2 x="1660" y="1060"/>
     </wire>
     <wire>
-      <p1 x="2060" y="-40"/>
-      <p2 x="2140" y="-40"/>
-    </wire>
-    <wire>
       <p1 x="1700" y="-40"/>
       <p2 x="1720" y="-40"/>
     </wire>
@@ -2733,6 +2743,10 @@
     <wire>
       <p1 x="640" y="-40"/>
       <p2 x="700" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="2060" y="-40"/>
+      <p2 x="2140" y="-40"/>
     </wire>
     <wire>
       <p1 x="1720" y="-40"/>
@@ -2863,7 +2877,7 @@
       <p2 x="940" y="1080"/>
     </wire>
     <wire>
-      <p1 x="2220" y="-60"/>
+      <p1 x="2240" y="-60"/>
       <p2 x="2280" y="-60"/>
     </wire>
     <wire>
@@ -2983,12 +2997,12 @@
       <p2 x="20" y="-80"/>
     </wire>
     <wire>
-      <p1 x="2040" y="-80"/>
-      <p2 x="2080" y="-80"/>
-    </wire>
-    <wire>
       <p1 x="2120" y="-80"/>
       <p2 x="2140" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="2060" y="-80"/>
+      <p2 x="2080" y="-80"/>
     </wire>
     <wire>
       <p1 x="1900" y="720"/>
