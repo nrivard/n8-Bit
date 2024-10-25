@@ -63,8 +63,14 @@
       35,
       36
     ],
-    "visible_layers": "003ffff_80000007",
+    "visible_layers": "0001100_00000000",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "pixel juice.kicad_prl",
