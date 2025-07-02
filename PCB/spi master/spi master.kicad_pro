@@ -554,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "n8 bus.net",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
